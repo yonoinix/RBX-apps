@@ -67,10 +67,10 @@
     <div class="fd">
         <center>
             <h5><?php
-                $host_name = gethostbyaddr($_SERVER['REMOTE_ADDR']);
+                $host_name = $_ENV['HOSTNAME'];
                 echo $host_name;
                 ?></h5>
-            <h5>Aplikasi Versi: v1</h5>
+            <h5>Aplikasi Versi: v2</h5>
         </center>
     </div>
 
